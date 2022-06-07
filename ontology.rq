@@ -9,50 +9,60 @@ coconut:ChemicalMetaClass rdf:type rdfs:Class ;
   rdfs:label "Chemical Meta Class"@en ;
   rdfs:comment "All chemical classes inherit from this class"@en ;
   dct:issued "2022-06-07"^^xsd:date ;
+.
 
 coconut:ChemicalSuperClass rdf:type rdfs:Class ;
   rdfs:subClassOf coconut:ChemicalMetaClass ;
   rdfs:label "Chemical Super Class"@en ;
   dct:issued "2022-06-07"^^xsd:date ;
+.
 
 coconut:ChemicalClass rdf:type rdfs:Class ;
   rdfs:subClassOf coconut:ChemicalSuperClass ;
   rdfs:label "Chemical Class"@en ;
   dct:issued "2022-06-07"^^xsd:date ;
+.
 
 coconut:ChemicalSubClass rdf:type rdfs:Class ;
   rdfs:subClassOf coconut:ChemicalClass ;
   rdfs:label "Chemical Subclass"@en ;
   dct:issued "2022-06-07"^^xsd:date ;
+.
 
 coconut:ChemicalLeafClass rdf:type rdfs:Class ;
   rdfs:subClassOf coconut:ChemicalSubClass ;
   rdfs:label "Chemical Leaf Class"@en ;
   dct:issued "2022-06-07"^^xsd:date ;
+.
 
 coconut:Molecule rdf:type coconut:ChemicalMetaClass ;
   rdfs:label "Molecule"@en ;
   dct:issued "2022-06-07"^^xsd:date ;
+.
 
 coconut:MolecularProperties rdf:type rdfs:Class ;
   rdfs:subClassOf owl:Thing ;
   rdfs:label "Molecular Properties"@en ;
   rdfs:comment "This is just a helper class for better structuring"@en ;
   dct:issued "2022-06-07"^^xsd:date ;
+.
 
 coconut:MolecularDescriptors rdf:type rdfs:Class ;
   rdfs:subClassOf owl:Thing ;
   rdfs:label "Molecular Descriptors"@en ;
   rdfs:comment "This is just a helper class for better structuring"@en ;
   dct:issued "2022-06-07"^^xsd:date ;
+.
 
 coconut:Reference rdf:type rdfs:Class ;
   rdfs:subClassOf owl:Thing ;
   rdfs:label "Reference"@en ;
   dct:issued "2022-06-07"^^xsd:date ;
+.
 
 coconut:Formula rdf:type rdfs:Class ;
   rdfs:subClassOf owl:Thing ;
   rdfs:label "Molecular Formula"@en ;
   dct:issued "2022-06-07"^^xsd:date ;
+.
 
