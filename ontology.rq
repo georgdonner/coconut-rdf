@@ -37,6 +37,7 @@ coconut:ChemicalLeafClass rdf:type rdfs:Class ;
 .
 
 coconut:Molecule rdf:type coconut:ChemicalMetaClass ;
+  rdfs:subClassOf owl:Thing ;
   rdfs:label "Molecule"@en ;
   dct:issued "2022-06-07"^^xsd:date ;
 .
