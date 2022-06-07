@@ -95,3 +95,210 @@ coconut:reference rdf:type owl:DatatypeProperty;
   rdfs:label "Reference"@en
 .
 
+coconut:name rdf:type owl:DatatypeProperty;
+  rdfs:domain :Molecule ;
+  rdfs:range xsd:string ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label "Molecule Name"@en
+.
+
+coconut:smile rdf:type owl:DatatypeProperty;
+  rdfs:domain :Molecule ;
+  rdfs:range xsd:string ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label "SMILE"@en
+.
+
+coconut:inChI rdf:type owl:DatatypeProperty;
+  rdfs:domain :Molecule ;
+  rdfs:range xsd:string ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label "InChI"@en
+.
+
+coconut:iupacName rdf:type owl:DatatypeProperty;
+  rdfs:domain :Molecule ;
+  rdfs:range xsd:string ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label "IUPAC Name"@en
+.
+
+coconut:bondCount rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularProperties ;
+  rdfs:range xsd:nonNegativeInteger ;
+  dct:issed "2022-06-07"^^xsd:date ;
+  rdfs:label "Bond Count"@en
+.
+
+coconut:minNumberOfRings rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularProperties ;
+  rdfs:range xsd:nonNegativeInteger ;
+  dct:issed "2022-06-07"^^xsd:date ;
+  rdfs:label "Minimum Number of Rings"@en
+.
+
+coconut:maxNumberOfRings rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularProperties ;
+  rdfs:range xsd:nonNegativeInteger ;
+  dct:issed "2022-06-07"^^xsd:date ;
+  rdfs:label "Maximum Number of Rings"@en
+.
+
+
+coconut:doi rdf:type owl:DatatypeProperty;
+  rdfs:domain :Reference ;
+  rdfs:range xsd:string ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label "DOI"@en
+.
+
+coconut:title rdf:type owl:DatatypeProperty;
+  rdfs:domain :Reference ;
+  rdfs:range xsd:string ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label "Title"@en
+.
+
+coconut:author rdf:type owl:DatatypeProperty;
+  rdfs:domain :Reference ;
+  rdfs:range xsd:string ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label "Author"@en
+.
+
+coconut:year rdf:type owl:DatatypeProperty;
+  rdfs:domain :Reference ;
+  rdfs:range xsd:nonNegativeInteger ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label "Year"@en
+.
+
+
+coconut:molWeight rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularFormula ;
+  rdfs:range xsd:float ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label "Molecular Weight"@en
+.
+
+coconut:totalAtomNumber rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularFormula ;
+  rdfs:range xsd:nonNegativeInteger ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label "Total Number of Atoms"@en
+.
+
+coconut:heavyAtomNumber rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularFormula ;
+  rdfs:range xsd:nonNegativeInteger ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label "Number of Heavy Atoms"@en
+.
+
+coconut:numberOfCarbons rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularFormula ;
+  rdfs:range xsd:nonNegativeInteger ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label "Number of Carbon Atoms"@en
+.
+
+
+coconut:Alogp rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularDescriptors ;
+  rdfs:range xsd:float ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label "Alogp"@en
+.
+
+coconut:Alogp2 rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularDescriptors ;
+  rdfs:range xsd:float ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label "Alogp2"@en
+.
+
+coconut:Apol rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularDescriptors ;
+  rdfs:range xsd:float ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label "Sum of the atomic polarizabilities"@en
+.
+
+coconut:Bpol rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularDescriptors ;
+  rdfs:range xsd:float ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label ""@en
+.
+
+coconut:EccentricConnectivityIndexDescriptor rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularDescriptors ;
+  rdfs:range xsd:float ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label ""@en
+.
+
+coconut:FmfDescriptor rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularDescriptors ;
+  rdfs:range xsd:float ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label ""@en
+.
+
+coconut:Fsp3 rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularDescriptors ;
+  rdfs:range xsd:float ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label ""@en
+.
+
+coconut:FragmentComplexityDescriptor rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularDescriptors ;
+  rdfs:range xsd:float ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label ""@en
+.
+
+coconut:PetitjeanNumber rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularDescriptors ;
+  rdfs:range xsd:float ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label ""@en
+.
+
+coconut:LipinskiRuleOf5Failures rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularDescriptors ;
+  rdfs:range xsd:float ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label ""@en
+.
+
+coconut:WienerPathNumber rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularDescriptors ;
+  rdfs:range xsd:float ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label ""@en
+.
+
+coconut:Xlogp rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularDescriptors ;
+  rdfs:range xsd:float ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label ""@en
+.
+
+coconut:ZagrebIndex rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularDescriptors ;
+  rdfs:range xsd:float ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label ""@en
+.
+
+coconut:TopoPSA rdf:type owl:DatatypeProperty;
+  rdfs:domain :MolecularDescriptors ;
+  rdfs:range xsd:float ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label ""@en
+.
+
+
