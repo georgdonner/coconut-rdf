@@ -61,9 +61,37 @@ coconut:Reference rdf:type rdfs:Class ;
   dct:issued "2022-06-07"^^xsd:date ;
 .
 
-coconut:Formula rdf:type rdfs:Class ;
+coconut:MolecularFormula rdf:type rdfs:Class ;
   rdfs:subClassOf owl:Thing ;
   rdfs:label "Molecular Formula"@en ;
   dct:issued "2022-06-07"^^xsd:date ;
+.
+
+coconut:molecularProperties rdf:type owl:DatatypeProperty;
+  rdfs:domain :Molecule ;
+  rdfs:range coconut:MolecularProperties ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label "Molecular Properties"@en
+.
+
+coconut:molecularDescriptors rdf:type owl:DatatypeProperty;
+  rdfs:domain :Molecule ;
+  rdfs:range coconut:MolecularDescriptors ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label "Molecular Descriptors"@en
+.
+
+coconut:molecularFormula rdf:type owl:DatatypeProperty;
+  rdfs:domain :Molecule ;
+  rdfs:range coconut:MolecularFormula ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label "Molecular Formula"@en
+.
+
+coconut:reference rdf:type owl:DatatypeProperty;
+  rdfs:domain :Molecule ;
+  rdfs:range coconut:Reference ;
+  dct:issued "2022-06-07"^^xsd:date ;
+  rdfs:label "Reference"@en
 .
 
